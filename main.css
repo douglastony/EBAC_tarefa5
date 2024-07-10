@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #141115;
+    max-width: 1300;
+}
+
+body .container {
+    background-color: #4C2B36;
+    width: 500px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 450px;
+    margin-top: 250px;
+    border-radius: 25px ;
+}
+
+.container form input,
+.container form button {
+    display: block;
+    width: 400px;
+    padding-bottom: 0px;
+    height: 32px;
+    margin-bottom: 8px;
+    margin-left: 10%;
+    color: #141115;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container form button{
+    color:#141115;
+}
+
+h1{
+    margin-left: 20%;
+    justify-self: center    ;
+}
+
+h5 {
+    margin-left: 25%;
+}
+
+#mensagemErro,
+#mensagemSucesso{
+    width: 400px;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 16px;
+    margin-top: -4px;
+}    
+
+
+#mensagemErro{
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    font-size: 16px;
+}
+
+#mensagemSucesso{
+    background-color: #698996;
+    color: white;
+    font-size: 16px ;
+}
+.nosee{
+    display: none;
+}
+
+
